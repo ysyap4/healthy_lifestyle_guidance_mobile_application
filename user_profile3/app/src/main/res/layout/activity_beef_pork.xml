@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/cb0"
+            android:contentDescription="@string/cb0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/cb1"
+            android:contentDescription="@string/cb1"
+            android:onClick="goToCb1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/cb2"
+            android:contentDescription="@string/cb2"
+            android:onClick="goToCb2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/cb3"
+            android:contentDescription="@string/cb3"
+            android:onClick="goToCb3" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton10"
+            android:background="@drawable/cb4"
+            android:contentDescription="@string/cb4"
+            android:onClick="goToCb4" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

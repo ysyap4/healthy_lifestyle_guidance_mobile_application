@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".healthyfoodsuggestion.classifications.Appetizers">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ce0"
+            android:contentDescription="@string/ce0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/ce1"
+            android:contentDescription="@string/ce1"
+            android:onClick="goToCe1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/ce2"
+            android:contentDescription="@string/ce2"
+            android:onClick="goToCe2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/ce3"
+            android:contentDescription="@string/ce3"
+            android:onClick="goToCe3" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton10"
+            android:background="@drawable/ce4"
+            android:contentDescription="@string/ce4"
+            android:onClick="goToCe4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton11"
+            android:background="@drawable/ce5"
+            android:contentDescription="@string/ce5"
+            android:onClick="goToCe5" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton12"
+            android:background="@drawable/ce6"
+            android:contentDescription="@string/ce6"
+            android:onClick="goToCe6" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context=".healthyfoodsuggestion.classifications.Fish">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="220dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/cc0"
+                android:contentDescription="@string/cc0" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <ImageButton
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:id="@+id/imageButton9"
+                android:background="@drawable/cc1"
+                android:contentDescription="@string/cc1"
+                android:onClick="goToCc1" />
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:id="@+id/imageButton10"
+                android:background="@drawable/cc2"
+                android:contentDescription="@string/cc2"
+                android:onClick="goToCc2" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton7"
+                android:background="@drawable/cc3"
+                android:contentDescription="@string/cc3"
+                android:onClick="goToCc3"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ac0"
+            android:contentDescription="@string/ac0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/ac1"
+            android:contentDescription="@string/ac1"
+            android:onClick="goToAc1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/ac2"
+            android:contentDescription="@string/ac2"
+            android:onClick="goToAc2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/ac3"
+            android:contentDescription="@string/ac3"
+            android:onClick="goToAc3" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ac4"
+            android:contentDescription="@string/ac4"
+            android:onClick="goToAc4" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

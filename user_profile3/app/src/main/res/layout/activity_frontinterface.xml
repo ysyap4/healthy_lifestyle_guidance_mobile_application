@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#8BD8D8"
+    tools:context="com.example.eunoia.user_profile3.workout.frontinterface"
+    android:clickable="true">
+
+    <!--
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp" /> -->
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/tgn1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Warming Up Finger"
+        android:id="@+id/pushup"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Exercise"
+        android:id="@+id/textView"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/textView2"
+        android:textColor="#EF1859"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Top Palm"
+        android:textColor="#EF1859"
+        android:id="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="-40dp" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="START"
+        android:src="@drawable/p1"
+        android:background="@null"
+        android:id="@+id/button"
+        android:layout_alignTop="@+id/button2"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="STOP"
+        android:src="@drawable/stop3"
+        android:background="@null"
+        android:id="@+id/button2"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_alignStart="@+id/button6" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="VIDEO"
+        android:src="@drawable/yu"
+        android:background="@null"
+        android:onClick="addInt"
+        android:id="@+id/button4"
+        android:layout_above="@+id/pushup"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView" />
+
+    <ImageButton
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="NEXT"
+        android:src="@drawable/n3"
+        android:background="@null"
+        android:onClick="plusInter"
+        android:id="@+id/button6"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/textView25"
+        android:layout_above="@+id/button6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/indigo"
+    android:weightSum="1">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="138dp"
+        android:layout_height="134dp"
+        android:src="@drawable/logo"
+        android:id="@+id/logo"
+        android:layout_gravity="center_horizontal" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:layout_gravity="center_horizontal" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="User Profile"
+        android:id="@+id/profile"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Workout Tips"
+        android:id="@+id/workout"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Daily Water Intake"
+        android:id="@+id/water"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="BMI Calculator"
+        android:id="@+id/bmi"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Healthy Food Suggestion"
+        android:id="@+id/food"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.13">
+    <Button
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:text="Pharmacy Locator"
+        android:id="@+id/pharmacy"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/pink"
+        android:background="@drawable/white_shape"/>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Us"
+        android:id="@+id/about"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"/>
+
+
+</LinearLayout>

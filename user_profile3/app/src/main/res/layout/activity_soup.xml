@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/ae0"
+            android:contentDescription="@string/ae0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/ae1"
+            android:contentDescription="@string/ae1"
+            android:onClick="goToAe1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/ae2"
+            android:contentDescription="@string/ae2"
+            android:onClick="goToAe2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton9"
+            android:background="@drawable/ae3"
+            android:contentDescription="@string/ae3"
+            android:onClick="goToAe3" />
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton10"
+            android:background="@drawable/ae4"
+            android:contentDescription="@string/ae4"
+            android:onClick="goToAe4" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+

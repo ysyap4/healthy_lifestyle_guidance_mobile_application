@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.eunoia.user_profile3">
+
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat"
+        >
+    <activity android:name=".Menu">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".userprofile.User">
+        <intent-filter>
+            <action android:name="package.User" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <activity android:name=".dailywaterintake.Graph">
+            <intent-filter>
+                <action android:name="package.Graph" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".dailywaterintake.MainActivity2">
+            <intent-filter>
+                <action android:name="package.MainActivity2" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+    <activity android:name=".About">
+        <intent-filter>
+            <action android:name="package.About" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+    <activity android:name=".bmicalculator.Bmi">
+        <intent-filter>
+            <action android:name="package.Bmi" />
+            <category android:name="android.intent.category.DEFAULT" />
+        </intent-filter>
+    </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".workout.instruc"
+            android:label="Instruction" />
+        <activity
+            android:name=".workout.about"
+            android:label="About Us" />
+        <activity android:name=".workout.Workout" >
+            <intent-filter>
+                <action android:name="package.Workout" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".workout.frontinterface" />
+        <activity android:name=".workout.bookPress" />
+        <activity android:name=".workout.TricepsDesk" />
+        <activity android:name=".workout.chairSquat" />
+        <activity android:name=".workout.wallsit" />
+        <activity android:name=".workout.videoWorkout" />
+        <activity android:name=".workout.instruc_push" />
+        <activity android:name=".workout.instruc_wall" />
+        <activity android:name=".workout.instruc_chair" />
+        <activity android:name=".workout.instruc_triceps" />
+        <activity android:name=".workout.instruc_wrist"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCg3FkYfpJPxribqtIasBdH4QLHPEmnVug" />
+
+        <!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".healthyfoodsuggestion.MainActivity">
+            <intent-filter>
+                <action android:name="package.MainActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".healthyfoodsuggestion.Course" />
+        <activity android:name=".healthyfoodsuggestion.DietaryNeeds" />
+        <activity android:name=".healthyfoodsuggestion.Classifications" />
+        <activity android:name=".healthyfoodsuggestion.course.Breakfast" />
+        <activity android:name=".healthyfoodsuggestion.course.aa.aa1" />
+        <activity android:name=".healthyfoodsuggestion.course.Lunch" />
+        <activity android:name=".healthyfoodsuggestion.course.Dinner" />
+        <activity android:name=".healthyfoodsuggestion.course.SideDish" />
+        <activity android:name=".healthyfoodsuggestion.course.Soup" />
+        <activity android:name=".healthyfoodsuggestion.course.Drink" />
+        <activity android:name=".healthyfoodsuggestion.course.aa.aa2" />
+        <activity android:name=".healthyfoodsuggestion.course.aa.aa3" />
+        <activity android:name=".healthyfoodsuggestion.course.aa.aa4" />
+        <activity android:name=".healthyfoodsuggestion.course.aa.aa5" />
+        <activity android:name=".healthyfoodsuggestion.course.ab.ab1" />
+        <activity android:name=".healthyfoodsuggestion.course.ab.ab2" />
+        <activity android:name=".healthyfoodsuggestion.course.ab.ab3" />
+        <activity android:name=".healthyfoodsuggestion.course.ac.ac1" />
+        <activity android:name=".healthyfoodsuggestion.course.ac.ac2" />
+        <activity android:name=".healthyfoodsuggestion.course.ac.ac3" />
+        <activity android:name=".healthyfoodsuggestion.course.ac.ac4" />
+        <activity android:name=".healthyfoodsuggestion.course.ad.ad1" />
+        <activity android:name=".healthyfoodsuggestion.course.ad.ad2" />
+        <activity android:name=".healthyfoodsuggestion.course.ae.ae1" />
+        <activity android:name=".healthyfoodsuggestion.course.ae.ae2" />
+        <activity android:name=".healthyfoodsuggestion.course.ae.ae3" />
+        <activity android:name=".healthyfoodsuggestion.course.ae.ae4" />
+        <activity android:name=".healthyfoodsuggestion.course.af.af1" />
+        <activity android:name=".healthyfoodsuggestion.course.af.af2" />
+        <activity android:name=".healthyfoodsuggestion.course.af.af3" />
+        <activity android:name=".healthyfoodsuggestion.course.af.af4" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.Vegetarian" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.LowFat" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.SugarFree" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.ba.ba1" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.ba.ba2" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.ba.ba3" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bb.bb1" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bb.bb2" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bb.bb3" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bc.bc1" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bc.bc2" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bc.bc3" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bc.bc4" />
+        <activity android:name=".healthyfoodsuggestion.dietaryneeds.bc.bc5" />
+        <activity android:name=".healthyfoodsuggestion.classifications.Chicken" />
+        <activity android:name=".healthyfoodsuggestion.classifications.BeefPork" />
+        <activity android:name=".healthyfoodsuggestion.classifications.Fish" />
+        <activity android:name=".healthyfoodsuggestion.classifications.Appetizers" />
+        <activity android:name=".healthyfoodsuggestion.classifications.Vegetable" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ca.ca1" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ca.ca2" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ca.ca3" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ca.ca4" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ca.ca5" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cb.cb1" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cb.cb2" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cb.cb3" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cb.cb4" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cc.cc1" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cc.cc2" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cc.cc3" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cd.cd1" />
+        <activity android:name=".healthyfoodsuggestion.classifications.cd.cd2" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce1" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce2" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce3" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce4" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce5" />
+        <activity android:name=".healthyfoodsuggestion.classifications.ce.ce6"></activity>
+    </application>
+
+</manifest>

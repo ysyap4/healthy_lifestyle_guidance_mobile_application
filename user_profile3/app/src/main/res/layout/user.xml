@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@color/indigo"
+    >
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.27"
+        android:layout_gravity="center_horizontal" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:src="@drawable/user"
+        android:gravity="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.15" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="326dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/white_shape"
+        android:layout_weight="0.32"
+        android:weightSum="1">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.47" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Username"
+            android:id="@+id/username"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="181dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/inputName"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="username"
+            android:onClick="null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Height (cm)"
+            android:id="@+id/height"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/inputHeight"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="height" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Weight (kg)"
+            android:id="@+id/weight"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"/>
+
+        <EditText
+            android:layout_width="191dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/inputWeight"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:hint="weight" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.12"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/buttonSave"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/shape"
+        android:textColor="@color/white"
+        android:onClick="updateProfile"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.91"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bc0"
+            android:contentDescription="@string/bc0" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="180dp"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton7"
+            android:background="@drawable/bc1"
+            android:contentDescription="@string/bc1"
+            android:onClick="goToBc1"/>
+
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/imageButton8"
+            android:background="@drawable/bc2"
+            android:contentDescription="@string/bc2"
+            android:onClick="goToBc2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:id="@+id/imageButton9"
+                android:background="@drawable/bc3"
+                android:contentDescription="@string/bc3"
+                android:onClick="goToBc3" />
+
+            <ImageButton
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageButton10"
+                android:background="@drawable/bc4"
+                android:contentDescription="@string/bc4"
+                android:onClick="goToBc4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="end">
+
+            <ImageButton
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bc5"
+                android:contentDescription="@string/bc5"
+                android:onClick="goToBc5" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
